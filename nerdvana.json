@@ -1,0 +1,49 @@
+{
+  "number": "XVII",
+  "staff": [
+    { "name": "Kaz", "position": "Secratary" },
+    { "name": "Aims", "position": "Welfare" },
+    { "name": "Poppy", "position": "Welfare" },
+    { "name": "Jordan", "position": "Treasurer" },
+    { "name": "Sev", "position": "Tech Lead" }
+  ],
+  "societies": [
+    {
+      "name": "Animation",
+      "description": "WE ARE NOT THE ANIME SOCIETY",
+      "union": "https://upsu.net/groups/HDCP7/anime-society"
+    },
+    {
+      "name": "Board Games",
+      "description": "board games",
+      "union": "https://upsu.net/groups/HDCP7/anime-society"
+    },
+
+    {
+      "name": "Cosplay",
+      "description": "LGBT society but for their special interests",
+      "union": "https://upsu.net/groups/HDCP7/anime-society"
+    },
+    {
+      "name": "Esports",
+      "description": "Even we're not good at CSGO",
+      "union": "https://upsu.net/groups/HDCP7/anime-society"
+    },
+
+    {
+      "name": "IT",
+      "description": "we were gonna be up all night anyway",
+      "union": "https://upsu.net/groups/HDCP7/anime-society"
+    },
+    {
+      "name": "PURE FM",
+      "description": "do they even exist still?",
+      "union": "https://upsu.net/groups/HDCP7/anime-society"
+    },
+    {
+      "name": "UPGS",
+      "description": "Esports but cooler",
+      "union": "https://upsu.net/groups/HDCP7/anime-society"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nerdvana</title>
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Scripts -->
+    <script src="scripts/societies.js" defer></script>
+    <script src="scripts/nerdvana.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <a href="#about">about</a> | <a href="#timetable">Timetable</a> |
+      <a href="#societies">Societies</a> | <a href="#charity">Charity</a> |
+      <a href="#findUs">Find Us!</a>
+    </nav>
+
+    <section id="hero">
+      <h2 class="text-xl">UOP</h2>
+      <h1 class="p-4">NERDVANA</h1>
+      <h2 id="nerdvana-number" class="text-xl"></h2>
+      <!--This is dynamically loaded by js-->
+      <p class="text-xs">
+        THE UNIVERSITY OF PORTSMOUTH'S AWARD WINNING TWICE-YEARLY 24 HOUR
+        CHARITY EVENT
+      </p>
+    </section>
+
+    <section id="about">
+      <div class="flex gap-2 p-2">
+        <div class="about flex flex-col gap-2">
+          <h2 class="text-2xl">About</h2>
+          <p>Rough bid about Nerdvana. This is just a placeholder</p>
+
+          <p>yap yap yap</p>
+        </div>
+        <img
+          src="images/about_nerdvana.png"
+          alt="A pretty picture of nerdvana"
+        />
+      </div>
+      <p>WINNER OF UNION'S EVENT OF THE YEAR AWARD 3 YEARS RUNNING!</p>
+    </section>
+
+    <section id="timetable">
+      <h2 class="text-2xl">Timetable</h2>
+      <img
+        src="images/timetable.png"
+        alt="The nerdvana timetable. If this image failed to load, please check out the discord"
+      />
+    </section>
+
+    <section id="societies">
+      <h2 class="text-2xl text-center p-5">Staff</h2>
+      <div id="staff-grid" class="card-grid"></div>
+
+      <h2 class="text-2xl societies-heading text-center p-5">Societies</h2>
+      <div id="societies-grid" class="card-grid"></div>
+    </section>
+
+    <section id="charity">
+      <h2 class="text-2xl">Charity</h2>
+      <div class="flex gap-2 p-2">
+        <img
+          src="images/charity_nerdvana.png"
+          alt="An image of the SpecialEffect Contact details. The details read: SpecialEffect, Units 9-12, Southill Business Park, Cornbury Park, Charlbury, Oxfordshire, OX7 3EW. Phone Number: 01608 810055. Email: info@specialeffect.org.uk"
+        />
+        <div class="charity flex flex-col gap-2">
+          <p>YAP ABOUT OUR PARTNER CHARITY: SPECIAL EFFECTS</p>
+        </div>
+      </div>
+      <p>YAP ABOUT THE OTHER 2 CHARITIES</p>
+    </section>
+
+    <footer id="findUs">
+      <h2 class="text-2xl">Find Us!</h2>
+      <!-- Left as blank cus wat -->
+      <a
+        href="https://www.instagram.com/uopnerdvana?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        target="_blank"
+        >Instagram</a
+      >
+      <a href="https://discord.gg/5rtCsQzdVD" target="_blank">Discord</a>
+      <a href="">Union</a>
+      <h1>BUY TICKETS!</h1>
+    </footer>
+  </body>
+</html>
